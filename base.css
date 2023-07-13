@@ -1,0 +1,229 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.descricao{
+    padding: 2%;
+}
+
+.descricao p{
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 5%;
+}
+
+.sobrenos{
+    padding: 2%;
+}
+
+.sobrenos p{
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 5%;
+}
+
+.funcionamento{
+    padding: 2%;
+}
+
+.funcionamento p{
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 5%;
+}
+
+.funcionamento caption{
+    font-size: 18px;
+}
+
+.footer{
+    background-color: rgb(255, 255, 255);
+    height: 225px;
+}
+
+.footer p{
+    font-size: 14px;
+    text-align: center;
+    padding-right: 5%;
+}
+
+.footer a{
+    font-size: 14px;
+    text-align: center;
+    padding-right: 5%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    display: flex;
+    flex-flow: column;
+    width: 75%;
+}
+
+.menu{
+    width: 25%;
+    margin: 0; 
+    padding: 0;
+    text-align:center;
+}
+
+.menu ul li{
+    margin: 0; 
+    padding: 0px;
+    border-bottom: 1px solid #CCC;
+    text-align: left;
+    list-style-type: none;
+}
+
+ul{
+    margin-top: 0px; 
+    padding: 0px;
+}
+
+.menu a:link{
+    background: #f1f1f1;
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+    font-size: 20px;
+}
+
+.menu a:hover{
+    background: #e9e9e9;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.link{
+    margin: 0; 
+    padding: 0px;
+    border-bottom: 1px solid #CCC;
+    font-size: larger;
+    color: #000;
+    text-align: left;
+    list-style-type: none;
+}
+
+.header {
+    height: 225px;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+table tbody tr:nth-child(even){
+    background-color: #f1f1f1;
+}
+
+table tbody tr:hover td{
+    background-color: #e9e9e9;
+    cursor: pointer;
+}
+
+table{
+    width: 700px;
+    border: solid 1px grey;
+    text-align: center;
+    font-size: 18px;
+}
+
+table thead th{
+    background-color: black;
+    color: white;
+}
+
+table tfoot th{
+    background-color: lightgrey;
+}
+
+caption{
+    padding: 5px;
+    font-size: 18px;
+}
+
+.contato{
+    display: flex;
+    padding: 2%;
+}
+
+.formulario{
+    padding: 5px;
+}
+
+.mapa{
+    padding-left: 2%;
+    padding-right: 5%;
+}
+
+.mapa p{
+    font-size: 18px;
+    margin-top: -2%;
+}
+
+.cabecalho p{
+    font-size: 18px;
+    margin-top: -2%;
+    margin-bottom: -0.1%;
+}
+
+label{
+    font-size: 18px;
+}
+
+input, textarea {
+    border: 2px solid grey;
+    border-radius: 4px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font: 18px;
+    box-sizing: border-box;
+}
+
+.limpar{
+    background-color: red;
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
+    padding: 3%;
+}
+
+.cadastrar{
+    background-color: lightgrey;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 3%;
+}
+
+.limpar:hover{
+    background-color: rgb(255, 94, 94);
+    color: fff;
+    cursor: pointer;
+}
+
+.cadastrar:hover{
+    background-color: #e9e9e9;
+    cursor: pointer;
+}
